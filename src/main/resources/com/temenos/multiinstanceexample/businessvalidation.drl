@@ -8,5 +8,14 @@ rule "check number less than 100"
    when
       item : Integer (this <= 100)
    then
+      System.out.println("Enetered 1");
       filtered = item;
+end
+
+rule "check number greater than 100"
+   ruleflow-group "validation"
+   when
+      item : Integer (this <= 100)
+   then
+      System.out.println("Enetered 2");
 end
