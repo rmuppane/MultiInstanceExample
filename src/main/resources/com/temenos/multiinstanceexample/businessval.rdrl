@@ -1,9 +1,0 @@
-package com.temenos.multiinstanceexample;
-
-import java.lang.Number;
-
-rule "businessval"
-	dialect "mvel"
-	when
-	then
-end
