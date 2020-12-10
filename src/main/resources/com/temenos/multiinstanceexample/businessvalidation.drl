@@ -5,7 +5,7 @@ global java.lang.Integer filtered;
 dialect "java"
 rule "check number less than 100"
    when
-      item : Integer (value <= 100)
+      item : Integer (this <= 100)
    then
       filtered = item;
 end
